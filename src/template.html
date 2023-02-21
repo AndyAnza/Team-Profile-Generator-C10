@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>| Team Profile Generator |</title>
+    <link rel="stylesheet" href="./style.css" /> 
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <header class="text-6xl text-center mt-8 mb-8">My team</header>
+    <div id="container" class="w-80 h-96 rounded-md">
+        <div class="h-32 mx-4 my-4">
+            <h1 class="text-4xl">{%Name%}</h1>
+            <h2 class="text-3xl">{%Role%}</h2>
+        </div>
+        <ul class="h-48 mx-4 rounded">
+            <li>ID:<span>{%ID%}</span></li>
+            <li>Email:<span>{%Email%}</span></li>
+            <li>Office Number:<span>{%Office Number%}</span></li>
+        </ul>
+    </div>
+
+</body>
+</html>

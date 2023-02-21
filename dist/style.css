@@ -1,0 +1,47 @@
+:root {
+    --color-1:#1A1A1D;
+    --color-2:#4E4E50;
+    --color-3:#C3073F;
+    --color-4:#6F2232;
+
+}
+
+body {
+    background-color: var(--color-1);
+}
+
+header {
+    color:aliceblue;
+}
+
+#container {
+    background-color: var(--color-3);
+}
+
+ul, .card-header {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1, h2 {
+    color: white;
+}
+
+ul {
+    background-color: var(--color-4);
+}
+
+li {
+    font-size: large;
+    font-weight:600;
+    color: gray;
+    margin-top: 4px;
+    margin-left: 10px;
+}
+
+span {
+    color:white;
+    font-size: large;
+    font-weight: 400;
+}

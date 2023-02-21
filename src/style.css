@@ -1,0 +1,27 @@
+body {
+    background-color: #1A1A1D;
+}
+
+header {
+    color:aliceblue;
+}
+
+#container {
+    background-color: #C3073F;
+}
+
+h1, h2 {
+    color: white;
+}
+
+ul {
+    background-color: #6F2232;
+}
+
+li {
+    color: #4E4E50
+}
+
+span {
+    color:white;
+}
